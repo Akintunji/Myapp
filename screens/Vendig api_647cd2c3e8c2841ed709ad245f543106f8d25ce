@@ -1,0 +1,25 @@
+Vendig api_647cd2c3e8c2841ed709ad245f543106f8d25cefc7f406db6640ac671f7c584a
+Vending _pin: 85259
+
+Inbox Push URL:https://.haykaytelecoms.com.ng/response
+https://reactnavigation.org/docs/next-steps
+
+Response Push URL:https://.haykaytelecoms.com.ng/response
+
+headerTitleAlign
+
+
+
+
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
+
+const Tab = createMaterialBottomTabNavigator();
+
+function MyTabs() {
+  return (
+    <Tab.Navigator>
+      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Settings" component={SettingsScreen} />
+    </Tab.Navigator>
+  );
+}
